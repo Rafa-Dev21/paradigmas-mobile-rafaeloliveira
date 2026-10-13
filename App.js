@@ -11,7 +11,7 @@ const products = [
     name: 'Calça Jeans Masculina',
     price: 129.90,
     category: 'Calças',
-    image: 'https://placehold.co/400x500/eeeeee/111111?text=Calca+Jeans',
+    image: require('./assets/images/calca casual.png'),
     description: 'Calça jeans masculina com visual moderno, ideal para combinar com diferentes estilos. Confira o tamanho antes de comprar.',
   },
   {
@@ -19,7 +19,7 @@ const products = [
     name: 'Camiseta Streetwear',
     price: 79.90,
     category: 'Camisas',
-    image: 'https://placehold.co/400x500/e5e5e5/111111?text=Camiseta',
+    image: require('./assets/images/camisa street.png'),
     description: 'Camiseta de estilo urbano, ideal para montar looks casuais e streetwear no dia a dia.',
   },
   {
@@ -27,7 +27,7 @@ const products = [
     name: 'Bermuda Casual',
     price: 89.90,
     category: 'Bermudas',
-    image: 'https://placehold.co/400x500/dcdcdc/111111?text=Bermuda',
+    image: require('./assets/images/bermuda casual.png'),
     description: 'Bermuda casual versátil, pensada para compor combinações confortáveis em momentos de lazer.',
   },
   {
@@ -35,7 +35,7 @@ const products = [
     name: 'Tênis Casual',
     price: 199.90,
     category: 'Casual',
-    image: 'https://placehold.co/400x500/eeeeee/111111?text=Tenis+Casual',
+    image: require('./assets/images/tenis casual.png'),
     description: 'Tênis casual para complementar diferentes combinações, do visual básico ao urbano.',
   },
   {
@@ -43,7 +43,7 @@ const products = [
     name: 'Moletom Streetwear',
     price: 159.90,
     category: 'Streetwear',
-    image: 'https://placehold.co/400x500/d6d6d6/111111?text=Moletom',
+    image: require('./assets/images/moletom.png'),
     description: 'Moletom com inspiração streetwear, ideal para criar um visual urbano e descontraído.',
   },
   {
@@ -51,7 +51,7 @@ const products = [
     name: 'Chinelo Básico',
     price: 39.90,
     category: 'Chinelos',
-    image: 'https://placehold.co/400x500/e5e5e5/111111?text=Chinelo',
+    image: require('./assets/images/chinelin .png'),
     description: 'Chinelo básico para usar em momentos de descanso e no dia a dia.',
   },
   {
@@ -59,7 +59,7 @@ const products = [
     name: 'Camisa Casual',
     price: 99.90,
     category: 'Casual',
-    image: 'https://placehold.co/400x500/dcdcdc/111111?text=Camisa',
+    image: require('./assets/images/camisa.png'),
     description: 'Camisa casual que combina com diferentes peças para compor um visual versátil.',
   },
   {
@@ -67,10 +67,11 @@ const products = [
     name: 'Calça Streetwear',
     price: 149.90,
     category: 'Streetwear',
-    image: 'https://placehold.co/400x500/eeeeee/111111?text=Calca+Urbana',
+    image: require('./assets/images/calca casual.png'),
     description: 'Calça de inspiração urbana, indicada para combinações modernas e streetwear.',
   },
 ];
+
 
 export default function App() {
   const [cart, setCart] = useState([]);

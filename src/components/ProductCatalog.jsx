@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import {
   View,
@@ -19,7 +18,7 @@ const categories = [
   'Chinelos',
 ];
 
-export default function ProductCatalog({ products }) {
+export default function ProductCatalog({ products, onAddToCart }) {
   const [selectedCategory, setSelectedCategory] = useState('Todos');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -44,11 +43,13 @@ export default function ProductCatalog({ products }) {
           style={styles.backButton}
           onPress={() => setSelectedProduct(null)}
         >
-          <Text style={styles.backButtonText}>← Voltar aos produtos</Text>
+          <Text style={styles.backButtonText}>
+            ← Voltar aos produtos
+          </Text>
         </Pressable>
 
         <Image
-          source={{ uri: selectedProduct.image }}
+          source={selectedProduct.image}
           style={styles.detailsImage}
           resizeMode="cover"
         />
@@ -65,7 +66,9 @@ export default function ProductCatalog({ products }) {
           {formatPrice(selectedProduct.price)}
         </Text>
 
-        <Text style={styles.descriptionTitle}>Descrição</Text>
+        <Text style={styles.descriptionTitle}>
+          Descrição
+        </Text>
 
         <Text style={styles.description}>
           {selectedProduct.description}
@@ -73,9 +76,7 @@ export default function ProductCatalog({ products }) {
 
         <Pressable
           style={styles.buyButton}
-          onPress={() => {
-            // O carrinho será implementado na próxima etapa.
-          }}
+          onPress={() => onAddToCart(selectedProduct)}
         >
           <Text style={styles.buyButtonText}>COMPRAR</Text>
         </Pressable>
@@ -137,7 +138,7 @@ export default function ProductCatalog({ products }) {
               onPress={() => setSelectedProduct(product)}
             >
               <Image
-                source={{ uri: product.image }}
+                source={product.image}
                 style={styles.productImage}
                 resizeMode="cover"
               />
@@ -161,7 +162,9 @@ export default function ProductCatalog({ products }) {
               style={styles.buyButton}
               onPress={() => setSelectedProduct(product)}
             >
-              <Text style={styles.buyButtonText}>VER PRODUTO</Text>
+              <Text style={styles.buyButtonText}>
+                VER PRODUTO
+              </Text>
             </Pressable>
           </View>
         ))}
@@ -288,7 +291,7 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     alignItems: 'center',
   },
-  
+
   buyButtonText: {
     color: '#ffffff',
     fontWeight: 'bold',
