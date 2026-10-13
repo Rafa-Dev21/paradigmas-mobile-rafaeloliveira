@@ -212,6 +212,8 @@ REACT NATIVE. *Layout with Flexbox*. Disponível em: https://reactnative.dev/doc
 
 REACT NATIVE. *Get Started with React Native*. Disponível em: https://reactnative.dev/docs/getting-started. Acesso em: 13 out. 2026.
 
+LIVRO PARA REFERENCIA:
+
 ESCUDELARIO, B.; PINHO, D. *React Native: desenvolvimento de aplicativos mobile com React*. São Paulo: Casa do Código, 2021.
 
 ## 9. Declaração de uso de IA
