@@ -76,13 +76,13 @@ Foram escolhidos Instagram e WhatsApp para observar como aplicativos utilizados 
 
 **Figura 1 — Feed do Instagram**
 
-![Print do feed do Instagram](docs/apps/instagram-feed.png)
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/056f7225-c880-4968-95da-b307f518a0a1" />
 
 Fonte: captura de tela realizada pelo autor.
 
 **Figura 2 — Perfil do Instagram**
 
-![Print do perfil do Instagram](docs/apps/instagram-perfil.png)
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/517e47f8-e12c-434c-acb0-cd696991b685" />
 
 Fonte: captura de tela realizada pelo autor.
 
@@ -108,13 +108,13 @@ A versão web pode oferecer mais espaço horizontal e interação por mouse e te
 
 **Figura 3 — Lista de conversas do WhatsApp**
 
-![Print das conversas do WhatsApp](docs/apps/whatsapp-conversas.png)
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/23c000ca-9592-4b60-8a21-2658fdf444ca" />
 
 Fonte: captura de tela realizada pelo autor.
 
 **Figura 4 — Conversa do WhatsApp**
 
-![Print de uma conversa do WhatsApp](docs/apps/whatsapp-conversa.png)
+<img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/83aca92d-5d95-4dc7-810e-352417436149" />
 
 Fonte: captura de tela realizada pelo autor.
 
