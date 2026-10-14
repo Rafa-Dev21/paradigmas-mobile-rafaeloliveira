@@ -72,11 +72,11 @@ Foram escolhidos Instagram e WhatsApp para observar como aplicativos utilizados 
 
 #### Telas analisadas
 
-**Figura 1 — Feed do Instagram**
+**Feed do Instagram**
 
 <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/056f7225-c880-4968-95da-b307f518a0a1" />
 
-**Figura 2 — Perfil do Instagram**
+**Perfil do Instagram**
 
 <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/517e47f8-e12c-434c-acb0-cd696991b685" />
 
@@ -102,17 +102,13 @@ A versão web pode oferecer mais espaço horizontal e interação por mouse e te
 
 #### Telas analisadas
 
-**Figura 3 — Lista de conversas do WhatsApp**
+**Lista de conversas do WhatsApp**
 
 <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/23c000ca-9592-4b60-8a21-2658fdf444ca" />
 
-Fonte: captura de tela realizada pelo autor.
-
-**Figura 4 — Conversa do WhatsApp**
+**Conversa do WhatsApp**
 
 <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/83aca92d-5d95-4dc7-810e-352417436149" />
-
-Fonte: captura de tela realizada pelo autor.
 
 #### Entrada e interação
 
@@ -144,7 +140,7 @@ Nos dois casos, a interface precisa organizar informações e ações para telas
 
 A prática consistiu em reconstruir uma seção da HC Store, originalmente desenvolvida para a web, utilizando React Native e Expo.
 
-**Figura 5 — HC Store na web**
+**HC Store na web**
 
 <img width="1886" height="989" alt="image" src="https://github.com/user-attachments/assets/3a2873bf-8645-4c3e-ade3-926f8bf8d2b8" />
 
@@ -152,7 +148,7 @@ A prática consistiu em reconstruir uma seção da HC Store, originalmente desen
 
 <img width="1908" height="993" alt="image" src="https://github.com/user-attachments/assets/546ecab7-8f64-4b58-847a-4964ae80adf4" />
 
-**Figura 6 — HC Store em React Native**
+**HC Store em React Native**
 
 <img width="386" height="832" alt="image" src="https://github.com/user-attachments/assets/059e1d71-952c-4abb-b487-abc43de27158" />
 
