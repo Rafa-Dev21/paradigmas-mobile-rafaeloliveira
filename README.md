@@ -1,5 +1,3 @@
-<img width="1908" height="993" alt="image" src="https://github.com/user-attachments/assets/a07ea254-a564-407e-90de-a02dcc6881e5" /># Paradigmas Mobile — HC Store
-
 ## 1. Objetivo do projeto
 
 Este projeto foi desenvolvido para a atividade de Paradigmas de Desenvolvimento Mobile. O objetivo é estudar as diferenças entre o desenvolvimento para web e para dispositivos móveis, reconstruindo uma parte da HC Store em React Native utilizando Expo.
