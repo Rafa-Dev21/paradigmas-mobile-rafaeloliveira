@@ -1,4 +1,4 @@
-# Paradigmas Mobile — HC Store
+<img width="1908" height="993" alt="image" src="https://github.com/user-attachments/assets/a07ea254-a564-407e-90de-a02dcc6881e5" /># Paradigmas Mobile — HC Store
 
 ## 1. Objetivo do projeto
 
@@ -78,13 +78,9 @@ Foram escolhidos Instagram e WhatsApp para observar como aplicativos utilizados 
 
 <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/056f7225-c880-4968-95da-b307f518a0a1" />
 
-Fonte: captura de tela realizada pelo autor.
-
 **Figura 2 — Perfil do Instagram**
 
 <img width="739" height="1600" alt="image" src="https://github.com/user-attachments/assets/517e47f8-e12c-434c-acb0-cd696991b685" />
-
-Fonte: captura de tela realizada pelo autor.
 
 #### Entrada e interação
 
@@ -101,6 +97,8 @@ A experiência depende da conexão para carregar conteúdos remotos. Em uma cone
 #### Comparação com a versão web
 
 A versão web pode oferecer mais espaço horizontal e interação por mouse e teclado. No aplicativo mobile, a interface é organizada para toque e navegação em uma tela menor. A comparação das versões deve considerar a posição dos controles, a distribuição do conteúdo e as formas de interação.
+
+<img width="1594" height="938" alt="image" src="https://github.com/user-attachments/assets/b54df973-16da-44e8-b939-c3cd3d7da9cb" />
 
 ### 4.2. WhatsApp
 
@@ -134,13 +132,13 @@ O envio e o recebimento de mensagens dependem da conectividade. Quando a rede fa
 
 O WhatsApp Web permite acessar conversas em uma tela maior e utilizar o teclado físico para digitar. No aplicativo mobile, a interface é adaptada ao toque e ao teclado virtual. Apesar de oferecerem funções semelhantes, as duas versões possuem diferenças de disposição e contexto de uso.
 
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/f7152906-afae-4092-95e8-7af8d2455cee" />
+
 ### 4.3. Comparação entre os aplicativos
 
 O Instagram prioriza a apresentação de conteúdo visual e a navegação por publicações, enquanto o WhatsApp prioriza a comunicação por mensagens e o acesso às conversas.
 
 Nos dois casos, a interface precisa organizar informações e ações para telas menores. Entretanto, os padrões de navegação e os controles são diferentes porque cada aplicativo atende a uma finalidade específica.
-
-**Observação:** as análises devem ser revisadas conforme as telas e os comportamentos efetivamente observados pelo autor. As permissões e os comportamentos de conexão podem variar conforme o sistema operacional, a versão do aplicativo e as configurações do aparelho.
 
 ## 5. Prática: reconstrução da HC Store em React Native
 
@@ -150,15 +148,17 @@ A prática consistiu em reconstruir uma seção da HC Store, originalmente desen
 
 **Figura 5 — HC Store na web**
 
-![Print da versão web da HC Store](docs/comparacao/hcstore-web.png)
+<img width="1886" height="989" alt="image" src="https://github.com/user-attachments/assets/3a2873bf-8645-4c3e-ade3-926f8bf8d2b8" />
 
-Fonte: captura de tela da página web original.
+<img width="1900" height="950" alt="image" src="https://github.com/user-attachments/assets/26677d59-53f0-4349-9182-2d4833b16f8c" />
+
+<img width="1908" height="993" alt="image" src="https://github.com/user-attachments/assets/546ecab7-8f64-4b58-847a-4964ae80adf4" />
 
 **Figura 6 — HC Store em React Native**
 
-![Print da HC Store Mobile](docs/comparacao/hcstore-mobile.png)
+<img width="386" height="832" alt="image" src="https://github.com/user-attachments/assets/059e1d71-952c-4abb-b487-abc43de27158" />
 
-Fonte: captura de tela do aplicativo desenvolvido pelo autor.
+<img width="386" height="832" alt="image" src="https://github.com/user-attachments/assets/7597d4cf-2947-435f-8dce-f18c812cd52c" />
 
 ### 5.2. Componentização
 
